@@ -1,0 +1,12 @@
+//Merging of Two array
+var vegetables = ['parsnip', 'potato'];
+var moreVegs = ['celery', 'beetroot'];
+
+Array.prototype.push.apply(vegetables, moreVegs);
+
+console.log(vegetables); // ['parsnip', 'potato', 'celery', 'beetroot']
+//
+
+//Ask
+Array.push.apply can be used in place of concat
+Difference between slice and creating the copy of any array using concat
